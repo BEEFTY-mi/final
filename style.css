@@ -2201,7 +2201,7 @@ a {
     width: 100%;
     position: absolute;
     display: inline-block;
-    background-image: url(./static/dropdown.svg);
+    background-image: url(./static/icon0.svg);
     transition: transform 0.5s ease-in-out;
     z-index: 2;
     opacity: 1;
