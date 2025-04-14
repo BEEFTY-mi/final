@@ -2720,7 +2720,6 @@ a {
   margin-left: 14px;
 }
 .comm__txt::after {
-  background-image: url(./static/pinkStrelka.svg);
   content: url(./static/pinkStrelka.svg);
   margin-left: 10px;
 }
