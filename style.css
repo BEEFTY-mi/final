@@ -961,14 +961,14 @@ ul {
     flex-wrap: wrap;
     background-color: #f8f8f8;
     width: 768px auto;
-    height: 200px;
+    height: 210px;
     padding-top: 25px;
     overflow: hidden;
     transition: height 1s ease;
     margin-bottom: -36px;
   }
   .plan.open {
-    height: 480px;
+    height: 520px;
     padding-bottom: 30px;
   }
   .strelka {
@@ -1025,7 +1025,7 @@ ul {
 
   .item1 {
     display: flex;
-    width: 220px;
+    width: 224px;
     height: 72px;
     border: 1px solid #eaeaea;
     border-radius: 5px;
@@ -1038,7 +1038,7 @@ ul {
 
   .item {
     display: flex;
-    width: 220px;
+    width: 224px;
     height: 72px;
     border: 1px solid #eaeaea;
     border-radius: 5px;
@@ -1047,11 +1047,11 @@ ul {
     box-sizing: border-box;
     justify-content: space-between;
     margin-left: 24px;
-    margin-top: -10px;
+    margin-top: 0px;
   }
   .item3 {
     display: flex;
-    width: 220px;
+    width: 224px;
     height: 72px;
     border: 1px solid #eaeaea;
     border-radius: 5px;
@@ -1060,7 +1060,7 @@ ul {
     box-sizing: border-box;
     justify-content: space-between;
     margin-left: 24px;
-    margin-top: -10px;
+    margin-top: 0px;
   }
   .item2 {
     display: none;
@@ -1097,7 +1097,7 @@ ul {
 }
 @media (min-width: 823px) {
   .plan.open {
-    height: 300px;
+    height: 310px;
   }
 }
 @media (min-width: 1120px) {
@@ -1141,7 +1141,7 @@ ul {
     padding-bottom: 30px;
   }
   .plan.open {
-    height: 470px;
+    height: 490px;
   }
   .strelka {
     display: flex;
@@ -1197,7 +1197,7 @@ ul {
 
   .item1 {
     display: flex;
-    width: 238px;
+    width: 240px;
     height: 72px;
     border: 1px solid #eaeaea;
     border-radius: 5px;
@@ -1210,7 +1210,7 @@ ul {
   }
   .item3 {
     display: flex;
-    width: 238px;
+    width: 240px;
     height: 72px;
     border: 1px solid #eaeaea;
     border-radius: 5px;
@@ -1225,7 +1225,7 @@ ul {
 
   .item {
     display: flex;
-    width: 238px;
+    width: 240px;
     height: 72px;
     border: 1px solid #eaeaea;
     border-radius: 5px;
@@ -1234,12 +1234,12 @@ ul {
     box-sizing: border-box;
     justify-content: space-between;
     margin-left: 24px;
-    margin-top: -10px;
+    margin-top: 0px;
     margin-right: 8px;
   }
   .item2 {
     display: flex;
-    width: 238px;
+    width: 240px;
     height: 72px;
     border: 1px solid #eaeaea;
     border-radius: 5px;
@@ -1248,7 +1248,7 @@ ul {
     box-sizing: border-box;
     justify-content: space-between;
     margin-left: 24px;
-    margin-top: -10px;
+    margin-top: 0px;
     margin-right: 8px;
   }
   .readMore {
@@ -1299,16 +1299,19 @@ ul {
 
 @media (min-width: 1440px) {
   .item1 {
-    width: 236px;
+    width: 240px;
   }
   .item2 {
-    width: 236px;
+    width: 240px;
   }
   .item3 {
-    width: 236px;
+    width: 240px;
+  }
+  .item {
+    width: 240px;
   }
   .plan.open {
-    height: 390px;
+    height: 400px;
   }
 }
 @media (min-width: 1450px) {
@@ -1321,19 +1324,25 @@ ul {
   .item3 {
     width: 240px;
   }
+  .item {
+    width: 240px;
+  }
 }
 @media (min-width: 1530px) {
   .item1 {
-    width: 238px;
+    width: 240px;
   }
   .item2 {
-    width: 238px;
+    width: 240px;
   }
   .item3 {
-    width: 238px;
+    width: 240px;
+  }
+  .item {
+    width: 240px;
   }
   .plan.open {
-    height: 300px;
+    height: 320px;
   }
 }
 @media (min-width: 1828px) {
@@ -1364,7 +1373,7 @@ ul {
     overflow: hidden;
   }
   .plan.open {
-    height: 170px;
+    height: 210px;
     padding-bottom: 40px;
   }
   .readMore {
@@ -1379,15 +1388,6 @@ ul {
 
   .readMore.moved {
     transform: translateY(0px);
-  }
-  .sss2 {
-    margin-top: -50px;
-  }
-  .sss1 {
-    margin-top: 0px;
-  }
-  .sss3 {
-    margin-top: -50px;
   }
 }
 
