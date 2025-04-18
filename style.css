@@ -720,6 +720,10 @@ ul {
   .menu__btn2 {
     margin-left: 1px;
   }
+  body {
+    margin-left: 320px;
+    justify-content: center;
+  }
 }
 @media (min-width: 1177px) {
   .menu__btn2C {
@@ -956,7 +960,8 @@ ul {
     display: none;
   }
   .plan {
-    gap: 30px;
+    gap: 10px;
+    row-gap: 10px;
     display: flex;
     flex-wrap: wrap;
     background-color: #f8f8f8;
@@ -965,11 +970,11 @@ ul {
     padding-top: 25px;
     overflow: hidden;
     transition: height 1s ease;
-    margin-bottom: -36px;
+    margin-bottom: -46px;
   }
   .plan.open {
-    height: 520px;
-    padding-bottom: 30px;
+    height: 410px;
+    padding-bottom: 46px;
   }
   .strelka {
     display: flex;
@@ -1072,7 +1077,7 @@ ul {
     width: 100%;
     position: relative;
     transition: transform 1s ease-in-out;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
   }
 
   .readMore.moved {
@@ -1095,9 +1100,14 @@ ul {
     cursor: pointer;
   }
 }
+@media (min-width: 792px) {
+  .plan.open {
+    height: 250px;
+  }
+}
 @media (min-width: 823px) {
   .plan.open {
-    height: 310px;
+    height: 250px;
   }
 }
 @media (min-width: 1120px) {
@@ -1278,7 +1288,7 @@ ul {
     display: none;
   }
   body {
-    padding-left: 320px;
+    margin-left: 320px;
   }
   .asi4 {
     position: fixed;
@@ -1296,7 +1306,16 @@ ul {
     margin-left: 120px;
   }
 }
-
+@media (min-width: 1192px) {
+  .plan.open {
+    height: 320px;
+  }
+}
+@media (min-width: 1407px) {
+  .otz {
+    margin-left: 20px;
+  }
+}
 @media (min-width: 1440px) {
   .item1 {
     width: 240px;
@@ -1311,7 +1330,7 @@ ul {
     width: 240px;
   }
   .plan.open {
-    height: 400px;
+    height: 320px;
   }
 }
 @media (min-width: 1450px) {
@@ -1328,6 +1347,16 @@ ul {
     width: 240px;
   }
 }
+@media (min-width: 1475px) {
+  .plan.open {
+    height: 245px;
+  }
+}
+@media (min-width: 1493px) {
+  .otz {
+    margin-left: 0px;
+  }
+}
 @media (min-width: 1530px) {
   .item1 {
     width: 240px;
@@ -1342,7 +1371,7 @@ ul {
     width: 240px;
   }
   .plan.open {
-    height: 320px;
+    height: 245px;
   }
 }
 @media (min-width: 1828px) {
@@ -1362,7 +1391,7 @@ ul {
     height: 1px;
   }
   .plan {
-    gap: 60px;
+    gap: 10px;
     display: flex;
     flex-wrap: wrap;
     background-color: #f8f8f8;
@@ -1373,8 +1402,8 @@ ul {
     overflow: hidden;
   }
   .plan.open {
-    height: 210px;
-    padding-bottom: 40px;
+    height: 160px;
+    padding-bottom: 50px;
   }
   .readMore {
     display: flex;
